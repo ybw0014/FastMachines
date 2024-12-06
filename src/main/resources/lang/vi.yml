@@ -165,6 +165,10 @@ items:
     lore:
       - "&7Bàn làm việc Vô cực hữu ích hơn."
       - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_MOB_DATA_INFUSER:
+    lore:
+      - ""
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
   FAST_SLIMEFRAME_FOUNDRY:
     name: "&aXưởng đúc SlimeFrame nhanh"
     lore:

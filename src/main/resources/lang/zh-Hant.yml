@@ -149,10 +149,18 @@ items:
     lore:
       - "&7更加有用的榨汁機。"
       - "&7不需要將物品按序擺放即可合成。"
+  FAST_ANCIENT_ALTAR:
+    lore:
+      - ""
+      - "&7不需要將物品按序擺放即可合成。"
   FAST_INFINITY_WORKBENCH:
     name: "&a快捷無盡工作台"
     lore:
       - "&7更有用的無盡工作台。"
+      - "&7不需要將物品按序擺放即可合成。"
+  FAST_MOB_DATA_INFUSER:
+    lore:
+      - ""
       - "&7不需要將物品按序擺放即可合成。"
   FAST_SLIMEFRAME_FOUNDRY:
     name: "&a快捷粘液戰甲鑄造廠"

@@ -1,0 +1,30 @@
+items:
+  #categories
+  FAST_MACHINES:
+    conditions:
+      force-load: true
+  MATERIALS:
+    conditions:
+      force-load: true
+  MACHINES:
+    conditions:
+      force-load: true
+  #gui items
+  CHOICE_INDICATOR:
+    conditions:
+      force-load: true
+  SCROLL_UP:
+    conditions:
+      force-load: true
+  SCROLL_DOWN:
+    conditions:
+      force-load: true
+  INFO:
+    conditions:
+      force-load: true
+  CRAFT:
+    conditions:
+      force-load: true
+  NO_ITEM:
+    conditions:
+      force-load: true

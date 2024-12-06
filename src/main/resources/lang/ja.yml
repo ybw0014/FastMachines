@@ -149,10 +149,18 @@ items:
     lore:
       - "&7より便利なジューサー。"
       - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_ANCIENT_ALTAR:
+    lore:
+      - ""
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
   FAST_INFINITY_WORKBENCH:
     name: "&a快速インフィニティ作業台"
     lore:
       - "&7より便利なインフィニティ作業台。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_MOB_DATA_INFUSER:
+    lore:
+      - ""
       - "&7レシピの順番通りに配置しなくてもクラフトできます。"
   FAST_SLIMEFRAME_FOUNDRY:
     name: "&a快速SlimeFrame鋳造所"

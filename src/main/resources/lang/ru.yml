@@ -1,0 +1,55 @@
+console:
+  loaded-language: "Загруженный язык: {0}"
+  loading-items: "Загрузка предметов..."
+  loading-researches: "Загрузка исследований..."
+items:
+  #categories
+  FAST_MACHINES:
+    conditions:
+      force-load: true
+    name: "&eБыстрые Автоматы"
+  MATERIALS:
+    conditions:
+      force-load: true
+    name: "&eБыстрые Автоматы &7- &Материалы"
+  MACHINES:
+    conditions:
+      force-load: true
+    name: "&eБыстрые Автоматы &7- &aАвтоматы"
+  #gui items
+  CHOICE_INDICATOR:
+    conditions:
+      force-load: true
+    name: "&eВыбранный предмет"
+    lore:
+      - "&7Вы выбрали предмет для создания."
+  SCROLL_UP:
+    conditions:
+      force-load: true
+    name: "&eПролистать вверх"
+  SCROLL_DOWN:
+    conditions:
+      force-load: true
+    name: "&eПролистать вниз"
+    lore:
+      - "&7Кликните для прокрутки вниз возможных выводов."
+  INFO:
+    conditions:
+      force-load: true
+    name: "&fИнформация"
+    lore:
+      - "&7Поместите материалы в первые 4 ряда,"
+      - "&7будут показаны все доступные выходы."
+      - ""
+      - "&7Выберите элемент, затем нажмите на 'Создать' ниже."
+      - "&7Выходы будут заполнять нижние строки."
+      - ""
+      - ""
+      - ""
+      - ""
+  CRAFT:
+    conditions:
+      force-load: true
+  NO_ITEM:
+    conditions:
+      force-load: true
