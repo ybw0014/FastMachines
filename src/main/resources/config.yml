@@ -10,6 +10,12 @@ enable-researches: true
 
 # Fast machines related settings.
 fast-machines:
+  # Determine how often the fast machines tick, in Minecraft ticks (1 second = 20 ticks).
+  # It affects how often the machines update their available recipes.
+  # The fast machines dont tick on Slimefun tickers.
+  # Valid values: 5 - 600.
+  tick-rate: 10
+
   # Whether to use energy on crafting.
   # Disabling this option will change the recipes of fast machines.
   # The energy per craft / capacity is defined per machine in /plugins/Slimefun/Items.yml

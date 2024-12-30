@@ -1,7 +1,10 @@
-name: Blob Build
+name: Java CI
 
 on:
   push:
+    branches:
+      - master
+  pull_request:
     branches:
       - master
 
@@ -27,13 +30,11 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew clean shadowJar
 
-      - name: Rename jar file
-        run: mv build/libs/FastMachines-*.jar build/libs/FastMachines.jar
+      - name: Get build artifact ready
+        run: mkdir staging && cp build/libs/*.jar staging
 
-      - name: Upload to Blob Builds
-        uses: WalshyDev/blob-builds/gh-action@main
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4
         with:
-          project: FastMachines
-          file: ./build/libs/InfinityExpansion2.jar
-          apiToken: ${{ secrets.BLOB_BUILDS_API_TOKEN }}
-          releaseNotes: ${{ github.event.head_commit.message }}
+          name: Preview Build (Do not report bugs for this build)
+          path: staging
